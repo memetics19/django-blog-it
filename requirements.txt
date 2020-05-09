@@ -1,4 +1,6 @@
+heroku config:set DISABLE_COLLECTSTATIC=1
 -r sandbox/requirements.txt
+
 
 # Babel==2.2.0
 # Django==1.9.4
